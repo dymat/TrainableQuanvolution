@@ -196,7 +196,7 @@ def training_experiment_2():
     optimizer = torch.optim.Adam(params=model.parameters(), lr=0.01)
     criterion = torch.nn.CrossEntropyLoss()
 
-    for epoch in range(50):
+    for epoch in range(1):
         for i, (x, y) in enumerate(train_loader):
 
             # prepare inputs and labels
